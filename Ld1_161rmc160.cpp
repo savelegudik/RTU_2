@@ -21,9 +21,9 @@ void output(double a, double b) {
 
 bool restartProgram() {
     cout << "Do you want to restart a program? ";
-    char solution;
-    cin >> solution;
-    return solution == 'y';
+    char decision;
+    cin >> decision;
+    return decision == 'y';
 }
 
 int main() {

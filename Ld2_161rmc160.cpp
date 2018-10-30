@@ -6,9 +6,9 @@ using namespace std;
 
 bool chooseArr() {
     cout << "If you want to insert random array, insert 'y': ";
-    char solution;
-    cin >> solution;
-    return solution == 'y';
+    char decision;
+    cin >> decision;
+    return decision == 'y';
 }
 
 void arrayOutput(int rows, int columns, double **arr) {
